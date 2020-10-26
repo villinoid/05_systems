@@ -25,7 +25,7 @@ int main(){
 	printf("i: %d\n",i);
 	printf("l: %ld\n",l);
 	
-	unsigned int ui=25;
+	unsigned int ui=128;
 	int *uip1=&ui;
 	char *uip2=&ui;
 	printf("uip1: %p uip1 points to: %u\n",uip1,*uip1);
